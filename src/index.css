@@ -7,9 +7,6 @@
 
 body {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   font-family: 'Inconsolata', monospace;
@@ -66,9 +63,55 @@ code {
 
 .projects{
   margin-bottom: 10%;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 400;
+}
+
+.projects:hover{
+  border-right: 1px solid #333;
+    transition: all 0.3s ease;
+}
+
+.projectName{
+font-family: 'Inconsolata',
+  monospace;
 }
 
 .projectsImages{
   height: 30rem;
 }
 
+.projectDate{
+  font-family: 'Montserrat', sans-serif;
+  color: #F15025;
+  font-weight: 400;
+}
+
+.projectMedium, .projectRole {
+  font-weight: 800;
+}
+
+
+/* CONTACT */
+
+.contactPage {
+  display: flex;
+  flex-direction: column;
+  position: fixed;
+  right: 0;
+  top: 50%;
+  transform: translateY(-50%);
+  z-index: 1;
+}
+
+.contactPageIcon {
+  margin-bottom: 20px;
+}
+
+.contactPageIcon a {
+  color: #555;
+}
+
+.contactPageIcon i {
+  font-size: 28px;
+}

@@ -1,6 +1,6 @@
 import alumniumCover from './media/alumnium-cover.png';
 import altrumCover from './media/altrum-cover.png';
-import bootcamp from './media/bootcamp.png.webp';
+import bootcamp from './media/bootcamp.png';
 import octomorphosis from './media/octomorphosis.png';
 import travelDevice from './media/travel-device-poster.png';
 import charcoalExperimentIB from './media/charcoal-experiment-ib.png';
