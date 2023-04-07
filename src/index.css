@@ -30,6 +30,7 @@ code {
   display: flex;
   justify-content: center;
   border-bottom: 1px solid #333;
+
 }
 
 .menuLi{
@@ -65,10 +66,12 @@ code {
   margin-bottom: 10%;
   font-family: 'Montserrat', sans-serif;
   font-weight: 400;
+  padding-bottom: 5%;
+
 }
 
 .projects:hover{
-  border-right: 1px solid #333;
+  border-bottom: 1px solid #333;
     transition: all 0.3s ease;
 }
 
@@ -98,10 +101,11 @@ font-family: 'Inconsolata',
   display: flex;
   flex-direction: column;
   position: fixed;
-  right: 0;
+  right: 1%;
+  left: 95%;
   top: 50%;
-  transform: translateY(-50%);
   z-index: 1;
+  padding-right: 5%;
 }
 
 .contactPageIcon {
@@ -114,4 +118,9 @@ font-family: 'Inconsolata',
 
 .contactPageIcon i {
   font-size: 28px;
+}
+
+.main{
+  margin-right:  20%;
+
 }

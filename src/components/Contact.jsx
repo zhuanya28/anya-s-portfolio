@@ -1,5 +1,4 @@
 import React from 'react';
-import "../index.css";
 
 function Contact() {
   return (
@@ -7,6 +6,7 @@ function Contact() {
       <div className="contactPageIcon">
         <a href="https://www.linkedin.com/">
           <i className="fab fa-linkedin"></i>
+          <label>linked in</label>
         </a>
       </div>
       <div className="contactPageIcon">
