@@ -53,8 +53,8 @@ function Menu() {
   };
 
   return (
-    <div className="menuDiv ">
-      <ul className="menuUl main">
+    <div className="menuDiv">
+      <ul className="menuUl">
         <li className="menuLi">
           <a
             onClick={() => handleLinkClick("home")}
