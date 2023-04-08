@@ -65,7 +65,7 @@ code {
     margin-right: 10%;
 }
 .projects{
-  margin-bottom: 10%;
+  margin-bottom: 5%;
   margin-top: 5%;
   margin-left: 20%;
   margin-right: 10%;
@@ -73,13 +73,18 @@ code {
   font-weight: 400;
   padding-bottom: 5%;
   width: 70%;
-
-
+  display: block;
 }
 
 .projects:hover{
-  border-bottom: 1px solid #333;
     transition: all 0.3s ease;
+}
+
+.closedProject{
+}
+
+.expandedProject{
+
 }
 
 .projectName{
@@ -99,6 +104,17 @@ font-family: 'Inconsolata',
 
 .projectMedium, .projectRole {
   font-weight: 800;
+}
+.arrow {
+  transform: rotate(90deg);
+}
+
+.arrow:hover{
+ color: #F15025;
+}
+
+.arrow.rotate{
+  transform: rotate(0deg);
 }
 
 
