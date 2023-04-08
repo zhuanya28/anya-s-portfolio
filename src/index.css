@@ -87,6 +87,21 @@ code {
 
 }
 
+.projectFirstPart{
+  display: grid;
+  grid-column: 3fs 1fs;
+}
+
+.projectFirstPartInfo{
+  grid-row: 1;
+  grid-column: 1;
+}
+
+.projectFirstPartArrow{
+  grid-row: 1;
+  grid-column: 2;
+}
+
 .projectName{
 font-family: 'Inconsolata',
   monospace;
@@ -110,7 +125,7 @@ font-family: 'Inconsolata',
 }
 
 .arrow:hover{
- color: #F15025;
+  color: #F15025;
 }
 
 .arrow.rotate{

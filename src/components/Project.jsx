@@ -15,13 +15,19 @@ function Project(props) {
       onClick={handleClick}
     >
       <div className="projects">
-        <FontAwesomeIcon
-          icon={faAnglesDown}
-          className={`arrow ${isExpanded ? "rotate" : ""}`}
-        />
-        <h1 className="projectName">{props.name}</h1>
-        <h3 className="projectDate">{props.date}</h3>
-        <h5 className="projectRole">{props.role}</h5>
+        <div className="projectFirstPart">
+          <div>
+            <h1 className="projectName">{props.name}</h1>
+            <h3 className="projectDate">{props.date}</h3>
+            <h5 className="projectRole">{props.role}</h5>
+          </div>
+          <div className="arrowIcon">
+            <FontAwesomeIcon
+              icon={faAnglesDown}
+              className={`arrow ${isExpanded ? "rotate" : ""}`}
+            />
+          </div>
+        </div>
         {isExpanded && (
           <>
             <h5 className="projectMedium">{props.medium}</h5>
