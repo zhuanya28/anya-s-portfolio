@@ -62,13 +62,15 @@ function Menu() {
   return (
     <div className="menuDiv">
       <ul className="menuUl">
-      <li className="menuLi nameInMenu">
-        Anya Zh.
-      </li>
+        {/* {activeLink !== "home" && (
+          <li className="menuLi nameInMenu">Anya</li>
+        )} */}
         <li className="menuLi">
           <button
             onClick={() => handleLinkClick("home")}
-            className={`btn btn-outline-danger ${activeLink === "home" ? "activeMenu" : ""}`}
+            className={`btn btn-outline-danger ${
+              activeLink === "home" ? "activeMenu" : ""
+            }`}
           >
             home
           </button>
@@ -87,9 +89,7 @@ function Menu() {
           <button
             onClick={() => handleLinkClick("digitalArt&GraphDes")}
             className={`btn btn-outline-danger ${
-              activeLink === "digitalArt&GraphDes"
-                ? "activeMenu"
-                : ""
+              activeLink === "digitalArt&GraphDes" ? "activeMenu" : ""
             }`}
           >
             digital art & graphic design

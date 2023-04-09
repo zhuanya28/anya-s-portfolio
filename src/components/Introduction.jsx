@@ -6,11 +6,11 @@ function Introduction(){
     return (
       <div className="main introduction">
         <div>
-          <h5 className="introHey">hey there,</h5>
-          <h1 className="introName">I'm Anya!</h1>
+          {/* <h5 className="introHey">hey there,</h5> */}
+          <h1 className="introName">Hey, I'm Anya!</h1>
         </div>
         <div className="aboutMeDiv">
-          <p className="segment">about me</p>
+          {/* <p className="segment">about me</p> */}
           <h4 className="aboutMeText">
             Welcome to my portfolio website! I am an{" "}
             <a
@@ -68,7 +68,7 @@ function Introduction(){
           </h4>
         </div>
         <div className="skillsDiv">
-          <p className="segment">skills</p>
+          {/* <p className="segment">skills</p> */}
           <h4 class="aboutMeText">My skillset includes:</h4>
           <ul>
             <li class="skillsSet">

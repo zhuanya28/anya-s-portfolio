@@ -13,6 +13,7 @@ import blackSquare from "./media/black-square.png";
 import squareColorExperiment from "./media/square-color-experiment.png";
 import stuckPoster from "./media/stuck-cover.png";
 import thePreparationPoster from "./media/the-preparation-cover.png";
+import endOfSemesterShowPoster from "./media/end-of-semester-ima-poster.jpg"
 
 export const webDevNDes = [
   {
@@ -58,6 +59,14 @@ export const digitalArtNGraphDesign = [
     link: "https://editor.p5js.org/zhuanya28/full/h52OYMQZy",
   },
   {
+    id: 7,
+    name: "Poster for IMA End-Of-Semester Show",
+    date: "december 2022",
+    role: "Figma",
+    media: endOfSemesterShowPoster,
+    description:"created a poster using Figma for the End-Of-Semester IMA Show december 2022"
+  },
+  {
     id: 2,
     name: "Rapid Prototyping Presentation",
     date: "december 2022",
@@ -67,7 +76,7 @@ export const digitalArtNGraphDesign = [
   },
   {
     id: 3,
-    name: "black square",
+    name: "Black square",
     date: "february 2022",
     medium: "black and white paper, digitalized using Adobe Illustrator",
     media: blackSquare,
@@ -76,7 +85,7 @@ export const digitalArtNGraphDesign = [
   },
   {
     id: 4,
-    name: "square color experiment",
+    name: "Square color experiment",
     date: "march 2022",
     medium: "Adobe Illustrator",
     media: squareColorExperiment,
@@ -85,7 +94,7 @@ export const digitalArtNGraphDesign = [
   },
   {
     id: 5,
-    name: "stuck: short film",
+    name: "STUCK: short film",
     date: "april 2022",
     medium: "shot on Iphone camera, edited in Adobe Premier Pro",
     media: stuckPoster,
