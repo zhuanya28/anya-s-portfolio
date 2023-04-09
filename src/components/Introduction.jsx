@@ -1,4 +1,5 @@
 import React from "react";
+import skills from "../media/skills.jpg";
 
 
 function Introduction(){
@@ -29,15 +30,19 @@ function Introduction(){
             >
               New York University Shanghai
             </a>
-            , currently residing in Shanghai. I am passionate about Web Design
-            and Web Development, especially Front-end Development.{" "}
+            , currently residing in Shanghai.{" "}
           </h4>
           <br />
           <h4 className="aboutMeText">
             This Portfolio Website includes cross-medium projects I have worked
             on throughout last couple of years. Right now I am actively
-            searching for internships and part-time positions in the field of
-            Web Design, UX/UI and Front-End Development.
+            searching for <span className="boldText">internships</span> and
+            part-time positions in the field of
+            <span className="boldText">
+              {" "}
+              Web Design, UX/UI and Front-End Development{" "}
+            </span>
+            .
           </h4>
           <br />
           <h4 className="aboutMeText">
@@ -61,6 +66,26 @@ function Introduction(){
             </a>
             .
           </h4>
+        </div>
+        <div className="skillsDiv">
+          <p className="segment">skills</p>
+          <h4 class="aboutMeText">My skillset includes:</h4>
+          <ul>
+            <li class="skillsSet">
+              HTML, CSS, JS, React.js, Bootstrap, Node.js, p5.js
+            </li>
+            <h5 class="skillsSetText">
+              I use these to create stuff on the web.
+            </h5>
+            <li class="skillsSet">
+              Figma, Adobe Illustrator, Adobe Photoshop, Adobe Premier Pro,
+              Audition
+            </li>
+            <h5 class="skillsSetText">
+              I use these to create engaging designs, posters and short films.
+            </h5>
+          </ul>
+          <img src={skills} alt="skills"></img>
         </div>
       </div>
     );

@@ -32,7 +32,7 @@ code {
 }
 
 .nameInMenu{
-  font-size: larger;
+  font-size: 2em;
   font-weight: bold;
 }
 
@@ -92,12 +92,28 @@ code {
 }
 
 .aboutMeText{
-
+  font-weight:300;
+}
+.boldText{
+  font-weight: 600;
 }
 .inTextA{
   color: #F15025;
 }
 
+.skillsDiv{
+  margin-top: 10%;
+}
+
+.skillsSet{
+  font-size: 1.5rem;
+  font-weight: 600;
+}
+
+.skillsSetText{
+  font-size: 1.5rem;
+  font-weight:300;
+}
 
 /* PROJECTS */
 .projects{
