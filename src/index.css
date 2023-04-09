@@ -200,7 +200,7 @@ code {
   border-bottom: 1px solid #ccc;
   margin-bottom: 20px;
   margin-left: 18%;
-  margin-right: 7%;
+  margin-right: 10%;
 }
 
 
@@ -212,20 +212,14 @@ code {
   position: fixed;
   right: 1%;
   left: 95%;
-  top: 50%;
-  z-index: 1;
   padding-right: 5%;
 }
 
 .contactPageIcon {
-  margin-bottom: 20px;
+height: 2.5rem;
+margin-bottom: 3em;
 }
 
-.contactPageIcon a {
-  color: #555;
-}
-
-.contactIcon{
-  width: 30px ;
-  color: black;
+.contactIcon {
+  width: 2.5rem ;
 }

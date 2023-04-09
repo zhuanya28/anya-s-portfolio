@@ -13,13 +13,20 @@ function Introduction(){
           <h4 className="aboutMeText">
             Welcome to my portfolio website! I am an{" "}
             <a
+              target="_blank"
+              rel="noopener noreferrer"
               className="inTextA"
-              href="https://shanghai.nyu.edu/academics/majors/interactive-media-and-business"
+              href="https://shanghai.nyu.edu/academics/majors/interactive-media-arts"
             >
               Interactive Media Arts student
             </a>{" "}
             at{" "}
-            <a className="inTextA" href="https://shanghai.nyu.edu">
+            <a
+              target="_blank"
+              rel="noopener noreferrer"
+              className="inTextA"
+              href="https://shanghai.nyu.edu"
+            >
               New York University Shanghai
             </a>
             , currently residing in Shanghai. I am passionate about Web Design
@@ -36,13 +43,20 @@ function Introduction(){
           <h4 className="aboutMeText">
             If you would like to know more about me, you can check out my{" "}
             <a
+              target="_blank"
+              rel="noopener noreferrer"
               className="inTextA"
               href="https://drive.google.com/file/d/1ylZsx8a5YqT3r9iVDYC5Ds7nvpIBafbf/view?usp=sharing"
             >
               CV
             </a>
             , or email me:{" "}
-            <a className="inTextA" href="mailto:zhuanya@nyu.edu">
+            <a
+              target="_blank"
+              rel="noopener noreferrer"
+              className="inTextA"
+              href="mailto:zhuanya@nyu.edu"
+            >
               zhuanya@nyu.edu
             </a>
             .
