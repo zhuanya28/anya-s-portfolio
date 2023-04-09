@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/anya-s-portfolio/static/css/main.50fcecda.css",
-    "main.js": "/anya-s-portfolio/static/js/main.87490920.js",
+    "main.css": "/anya-s-portfolio/static/css/main.59d393cf.css",
+    "main.js": "/anya-s-portfolio/static/js/main.d07585cf.js",
     "static/media/octomorphosis.png": "/anya-s-portfolio/static/media/octomorphosis.f41b9c911ca9dd257a7e.png",
     "static/media/the-preparation-cover.png": "/anya-s-portfolio/static/media/the-preparation-cover.3f8177363d069de42c8c.png",
     "static/media/stuck-cover.png": "/anya-s-portfolio/static/media/stuck-cover.40191fe934500401812e.png",
@@ -12,6 +12,7 @@
     "static/media/square-color-experiment.png": "/anya-s-portfolio/static/media/square-color-experiment.ce57092eb067e3eba22c.png",
     "static/media/photogrpahy-ib.jpg": "/anya-s-portfolio/static/media/photogrpahy-ib.19a4de351e9c7f9a5a02.jpg",
     "static/media/printmaking-ib.png": "/anya-s-portfolio/static/media/printmaking-ib.1018fb5a9a6057482b57.png",
+    "static/media/end-of-semester-ima-poster.jpg": "/anya-s-portfolio/static/media/end-of-semester-ima-poster.11db1da4fdf9cb7415b1.jpg",
     "static/media/travel-device-poster.png": "/anya-s-portfolio/static/media/travel-device-poster.a1288a82c62ca9a4229c.png",
     "static/media/bootcamp.png": "/anya-s-portfolio/static/media/bootcamp.a4ce2cf1e41f88bbe2bd.png",
     "static/media/altrum-cover.png": "/anya-s-portfolio/static/media/altrum-cover.d0cd4f1541ff67d9059a.png",
@@ -23,11 +24,11 @@
     "static/media/linkedin.svg": "/anya-s-portfolio/static/media/linkedin.a1df91ca6f027e1e500640d817c6ec0b.svg",
     "static/media/envelope.svg": "/anya-s-portfolio/static/media/envelope.28a2a5a7fd9a082acf4c12a5c19d2458.svg",
     "static/media/telegram-original.svg": "/anya-s-portfolio/static/media/telegram-original.175f524c8641c91799d6878a11f6b521.svg",
-    "main.50fcecda.css.map": "/anya-s-portfolio/static/css/main.50fcecda.css.map",
-    "main.87490920.js.map": "/anya-s-portfolio/static/js/main.87490920.js.map"
+    "main.59d393cf.css.map": "/anya-s-portfolio/static/css/main.59d393cf.css.map",
+    "main.d07585cf.js.map": "/anya-s-portfolio/static/js/main.d07585cf.js.map"
   },
   "entrypoints": [
-    "static/css/main.50fcecda.css",
-    "static/js/main.87490920.js"
+    "static/css/main.59d393cf.css",
+    "static/js/main.d07585cf.js"
   ]
 }
