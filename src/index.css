@@ -78,12 +78,32 @@ code {
   margin-bottom: 3%;
     margin-top: 3%;
     margin-left: 18%;
-    margin-right: 7%;
+    margin-right: 10%;
 }
+
+.introName{
+  font-weight: bold;
+}
+.aboutMeDiv{
+  margin-top: 5%;
+}
+.segment{
+  color: #F15025;
+}
+
+.aboutMeText{
+
+}
+.inTextA{
+  color: #F15025;
+}
+
+
+/* PROJECTS */
 .projects{
   margin-top: 3%;;
   margin-left: 18%;
-  margin-right: 7%;
+  margin-right: 10%;
   /* font-family: 'Montserrat', sans-serif; */
   font-weight: 400;
   padding-bottom: 2%;
@@ -205,6 +225,7 @@ code {
   color: #555;
 }
 
-.contactPageIcon i {
-  font-size: 28px;
+.contactIcon{
+  width: 30px ;
+  color: black;
 }
