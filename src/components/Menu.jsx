@@ -4,32 +4,39 @@ import Project from "./Project";
 import React, { useState } from "react";
 
 function fillProjects() {
-  return webDevNDes.map((project) => (
-    <Project
-      id={project.id}
-      name={project.name}
-      date={project.date}
-      role={project.role}
-      media={project.media}
-      description={project.description}
-      link={project.link}
-    />
-  ));
+  return (
+
+     webDevNDes.map((project) => (
+        <Project
+          id={project.id}
+          name={project.name}
+          date={project.date}
+          role={project.role}
+          media={project.media}
+          description={project.description}
+          link={project.link}
+        />
+      ))
+  );
 }
 
-function fillDigArtNGraphDesProjects() {
-  return digitalArtNGraphDesign.map((project) => (
-    <Project
-      id={project.id}
-      name={project.name}
-      date={project.date}
-      role={project.role}
-      medium={project.medium}
-      media={project.media}
-      description={project.description}
-      link={project.link}
-    />
-  ));
+function fillDigArtNGraphDesProjects(currentSection) {
+  return (
+    digitalArtNGraphDesign.map((project) => (
+        <Project
+          id={project.id}
+          name={project.name}
+          date={project.date}
+          role={project.role}
+          medium={project.medium}
+          media={project.media}
+          description={project.description}
+          link={project.link}
+        />
+      ))
+      
+   
+  );
 }
 
 function fillVisualArtsProjects() {
@@ -41,9 +48,9 @@ function fillVisualArtsProjects() {
       medium={project.medium}
       media={project.media}
       description={project.description}
-      link={project.link}
     />
   ));
+
 }
 
 function Menu() {
@@ -55,37 +62,48 @@ function Menu() {
   return (
     <div className="menuDiv">
       <ul className="menuUl">
+      <li className="menuLi nameInMenu">
+        Anya Zh.
+      </li>
         <li className="menuLi">
-          <a
+          <button
             onClick={() => handleLinkClick("home")}
-            className={activeLink === "home" ? "activeMenu" : ""}
+            className={`btn btn-outline-danger ${activeLink === "home" ? "activeMenu" : ""}`}
           >
             home
-          </a>
+          </button>
         </li>
         <li className="menuLi">
-          <a
+          <button
             onClick={() => handleLinkClick("webDev&Des")}
-            className={activeLink === "webDev&Des" ? "activeMenu" : ""}
+            className={`btn btn-outline-danger ${
+              activeLink === "webDev&Des" ? "activeMenu" : ""
+            }`}
           >
             web development & design
-          </a>
+          </button>
         </li>
         <li className="menuLi">
-          <a
+          <button
             onClick={() => handleLinkClick("digitalArt&GraphDes")}
-            className={activeLink === "digitalArt&GraphDes" ? "activeMenu" : ""}
+            className={`btn btn-outline-danger ${
+              activeLink === "digitalArt&GraphDes"
+                ? "activeMenu"
+                : ""
+            }`}
           >
             digital art & graphic design
-          </a>
+          </button>
         </li>
         <li className="menuLi">
-          <a
+          <button
             onClick={() => handleLinkClick("visualArt")}
-            className={activeLink === "visualArt" ? "activeMenu" : ""}
+            className={`btn btn-outline-danger ${
+              activeLink === "visualArt" ? "activeMenu" : ""
+            }`}
           >
             visual art
-          </a>
+          </button>
         </li>
       </ul>
       <div>

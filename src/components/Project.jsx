@@ -10,41 +10,40 @@ function Project(props) {
   };
 
   return (
-    <div
-      className={` box ${isExpanded ? "expandedProject" : "closedProject"}`}
-      onClick={handleClick}
-    >
+    <div className={` box ${isExpanded ? "expandedProject" : "closedProject"}`}>
       <div className="projects">
         <div className="projectFirstPart">
-          <div>
+          <div className="projectFirstPartInfo">
             <h1 className="projectName">{props.name}</h1>
             <h3 className="projectDate">{props.date}</h3>
             <h5 className="projectRole">{props.role}</h5>
+            <h5 className="projectMedium">{props.medium}</h5>
           </div>
-          <div className="arrowIcon">
+          <div className="projectFirstPartArrow" onClick={handleClick}>
             <FontAwesomeIcon
               icon={faAnglesDown}
+              size="2xl"
               className={`arrow ${isExpanded ? "rotate" : ""}`}
             />
           </div>
         </div>
         {isExpanded && (
           <>
-            <h5 className="projectMedium">{props.medium}</h5>
+            <p className="projectDescription">{props.description}</p>
+            <a
+              className="projectLink btn btn-outline-danger"
+              href={props.link}
+              target="_blank"
+              rel="noopener noreferrer"
+              type="button"
+            >
+              try it out!
+            </a>
             <img
               className="projectsImages"
               src={props.media}
               alt={props.media}
             />
-            <p className="projectDescription">{props.description}</p>
-            <a
-              className="projectLink"
-              href={props.link}
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              {props.link}
-            </a>
           </>
         )}
       </div>
