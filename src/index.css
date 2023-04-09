@@ -75,33 +75,33 @@ code {
 
 /* INTRODUCTION */
 .introduction{
-  margin-bottom: 10%;
+  margin-bottom: 3%;
     margin-top: 3%;
     margin-left: 18%;
-    margin-right: 10%;
+    margin-right: 7%;
 }
 .projects{
-  margin-top: 3%;
-  margin-bottom: 5%;
+  margin-top: 3%;;
   margin-left: 18%;
-  margin-right: 10%;
+  margin-right: 7%;
   /* font-family: 'Montserrat', sans-serif; */
   font-weight: 400;
-  padding-bottom: 5%;
+  padding-bottom: 2%;
   width: 70%;
   display: block;
 }
 
-.projects:hover{
-    transition: all 0.3s ease;
+
+.projectDescription {
+  transition: height 0.5s ease-in-out;
+  height: 0;
+  overflow: hidden;
 }
 
-.closedProject{
+.expandedProject .projectDescription {
+  height: auto;
 }
 
-.expandedProject{
-
-}
 
 .projectFirstPart{
   display: grid;
@@ -116,14 +116,16 @@ code {
 .projectFirstPartArrow{
   grid-row: 1;
   grid-column: 2;
-  text-align: center;
+  text-align: right;
 }
 
 .projectName{
 }
-
+.button-container {
+  display:block;
+}
 .projectsImages{
-  height: 30rem;
+  height: 30em;
 }
 
 .projectDate{
@@ -136,16 +138,49 @@ code {
 .projectMedium, .projectRole {
   font-weight: 800;
 }
+
+.projectLink{
+  color: gray;
+  text-decoration: none;
+  margin-bottom: 1%;
+}
+.projectLink:hover {
+  color: #F15025;
+  text-decoration: #F15025;
+  text-decoration: underline;
+}
+
+
 .arrow {
   transform: rotate(90deg);
 }
 
 .arrow:hover{
-  color: #F15025;
+  color:white;
 }
 
 .arrow.rotate{
   transform: rotate(0deg);
+}
+
+.btn-arrow {
+  background-color: lightgrey;
+  border-color: lightgray;
+  height: 4em;
+    width: 4em;
+    border-radius: 50%;
+}
+
+.btn-arrow:hover {
+  background-color: #F15025;
+  border-color: #F15025;
+}
+
+.projectLine {
+  border-bottom: 1px solid #ccc;
+  margin-bottom: 20px;
+  margin-left: 18%;
+  margin-right: 7%;
 }
 
 
