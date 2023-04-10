@@ -160,9 +160,14 @@ code {
   display:block;
 }
 .projectsImages{
-  height: 30em;
+  height: 30rem;
 }
 
+.projectName:hover{
+color: #F15025;
+cursor: pointer;
+ transition: all 0.3s ease;
+}
 .projectDate{
   /* font-family: 'Montserrat', sans-serif; */
   color: #F15025;
@@ -199,11 +204,11 @@ code {
 }
 
 .btn-arrow {
-  background-color: lightgrey;
-  border-color: lightgray;
-  height: 4em;
-    width: 4em;
-    border-radius: 50%;
+  background-color: rgb(225, 224, 224);
+  border-color: rgb(225, 224, 224);
+  height: 3.5em;
+    width: 3.5em;
+    border-radius: 0%;
 }
 
 .btn-arrow:hover {

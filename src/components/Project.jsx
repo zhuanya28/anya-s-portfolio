@@ -14,7 +14,7 @@ function Project(props) {
       <div className="projects">
         <div className="projectFirstPart">
           <div className="projectFirstPartInfo">
-            <h1 className="projectName">{props.name}</h1>
+            <h1 className="projectName" onClick={handleClick}>{props.name}</h1>
             <h3 className="projectDate">{props.date}</h3>
             <h5 className="projectRole">{props.role}</h5>
             <h5 className="projectMedium">{props.medium}</h5>
