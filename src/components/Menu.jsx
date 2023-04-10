@@ -55,20 +55,20 @@ function fillVisualArtsProjects() {
 
 function Menu() {
   const [activeLink, setActiveLink] = useState("home");
+  
   const handleLinkClick = (linkId) => {
     setActiveLink(linkId);
+    
   };
+   
 
   return (
     <div className="menuDiv">
       <ul className="menuUl">
-        {/* {activeLink !== "home" && (
-          <li className="menuLi nameInMenu">Anya</li>
-        )} */}
         <li className="menuLi">
           <button
             onClick={() => handleLinkClick("home")}
-            className={`btn btn-outline-danger ${
+            className={`btn btn-outline ${
               activeLink === "home" ? "activeMenu" : ""
             }`}
           >
@@ -78,7 +78,7 @@ function Menu() {
         <li className="menuLi">
           <button
             onClick={() => handleLinkClick("webDev&Des")}
-            className={`btn btn-outline-danger ${
+            className={`btn btn-outline ${
               activeLink === "webDev&Des" ? "activeMenu" : ""
             }`}
           >
@@ -88,7 +88,7 @@ function Menu() {
         <li className="menuLi">
           <button
             onClick={() => handleLinkClick("digitalArt&GraphDes")}
-            className={`btn btn-outline-danger ${
+            className={`btn btn-outline ${
               activeLink === "digitalArt&GraphDes" ? "activeMenu" : ""
             }`}
           >
@@ -98,7 +98,7 @@ function Menu() {
         <li className="menuLi">
           <button
             onClick={() => handleLinkClick("visualArt")}
-            className={`btn btn-outline-danger ${
+            className={`btn btn-outline ${
               activeLink === "visualArt" ? "activeMenu" : ""
             }`}
           >

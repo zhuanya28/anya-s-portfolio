@@ -61,15 +61,16 @@ code {
   background-color: #F15025;
 }
 
-.btn-outline-danger{
+.btn-outline{
   border-radius: 0%;
   border-color: #F15025;
   color:#333;
   text-align: right;
 }
 
-.btn-outline-danger:hover{
+.btn-outline:hover{
   background-color: #F15025;
+  color: white;
 }
 
 
