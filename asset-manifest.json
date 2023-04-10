@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/anya-s-portfolio/static/css/main.45202d51.css",
-    "main.js": "/anya-s-portfolio/static/js/main.867867c8.js",
+    "main.js": "/anya-s-portfolio/static/js/main.5cb2ab7a.js",
     "static/media/octomorphosis.png": "/anya-s-portfolio/static/media/octomorphosis.f41b9c911ca9dd257a7e.png",
     "static/media/the-preparation-cover.png": "/anya-s-portfolio/static/media/the-preparation-cover.3f8177363d069de42c8c.png",
     "static/media/stuck-cover.png": "/anya-s-portfolio/static/media/stuck-cover.40191fe934500401812e.png",
@@ -25,10 +25,10 @@
     "static/media/envelope.svg": "/anya-s-portfolio/static/media/envelope.28a2a5a7fd9a082acf4c12a5c19d2458.svg",
     "static/media/telegram-original.svg": "/anya-s-portfolio/static/media/telegram-original.175f524c8641c91799d6878a11f6b521.svg",
     "main.45202d51.css.map": "/anya-s-portfolio/static/css/main.45202d51.css.map",
-    "main.867867c8.js.map": "/anya-s-portfolio/static/js/main.867867c8.js.map"
+    "main.5cb2ab7a.js.map": "/anya-s-portfolio/static/js/main.5cb2ab7a.js.map"
   },
   "entrypoints": [
     "static/css/main.45202d51.css",
-    "static/js/main.867867c8.js"
+    "static/js/main.5cb2ab7a.js"
   ]
 }
