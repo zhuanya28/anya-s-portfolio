@@ -29,7 +29,7 @@ export const webDevNDes = [
   {
     id: 2,
     name: "Altrum",
-    date: "july 2022 – october 2023",
+    date: "july 2022 – october 2022",
     role: "HTML, CSS, Bootstrap, JS, Node.js",
     media: altrumCover,
     description: "web design and front-end development deploying Bootstrap",
