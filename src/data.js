@@ -21,16 +21,27 @@ import timelessTales from "./media/timeless-tales-cover.png";
 import diptychAbuDhabi from "./media/diptych-final.jpg";
 import itemsToBorrowFromTheRCPoster from "./media/items-to-borrow-from-RC.png";
 import linenPurchasePoster from "./media/linen-purchase-poster.png";
+import challengeEducationCase from "./media/challenge-enducation-case.png";
 
 export const webDevNDes = [
   {
-    id: 4,
+    id: 5,
     name: "!MIRROR",
     date: "april 2023 – may 2023",
     role: "p5.js, HTML, CSS",
     media: notAMirror,
     description:
       "created a web-based webcamera manipulation project. experiments inspired by Andy Warhol, sketching, pop art and others.",
+    link: "https://zhuanya28.github.io/project-b-cclab/",
+  },
+  {
+    id: 4,
+    name: "Website Header for Challenge Education",
+    date: "april 2023",
+    role: "Figma",
+    media: challengeEducationCase,
+    description:
+      "designed an interactive website header for Challenge Education. color palette and logo were set. keywords: official, strong, concise.",
     link: "https://zhuanya28.github.io/project-b-cclab/",
   },
   {
