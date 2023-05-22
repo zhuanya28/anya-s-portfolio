@@ -21,7 +21,7 @@ import timelessTales from "./media/timeless-tales-cover.png";
 import diptychAbuDhabi from "./media/diptych-final.jpg";
 import itemsToBorrowFromTheRCPoster from "./media/items-to-borrow-from-RC.png";
 import linenPurchasePoster from "./media/linen-purchase-poster.png";
-import challengeEducationCase from "./media/challenge-enducation-case.png";
+import changellengeEducationCase from "./media/challenge-enducation-case.png";
 
 export const webDevNDes = [
   {
@@ -36,12 +36,12 @@ export const webDevNDes = [
   },
   {
     id: 4,
-    name: "Website Header for Challenge Education",
+    name: "Website Header for Changellenge Education",
     date: "april 2023",
     role: "Figma",
-    media: challengeEducationCase,
+    media: changellengeEducationCase,
     description:
-      "designed an interactive website header for Challenge Education. color palette and logo were set. keywords: official, strong, concise.",
+      "designed an interactive website header for Changellenge Education. color palette and logo were set. keywords: official, strong, concise.",
     link: "https://zhuanya28.github.io/project-b-cclab/",
   },
   {
