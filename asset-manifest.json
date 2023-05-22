@@ -1,34 +1,41 @@
 {
   "files": {
-    "main.css": "/anya-s-portfolio/static/css/main.45202d51.css",
-    "main.js": "/anya-s-portfolio/static/js/main.8c425edd.js",
+    "main.css": "/anya-s-portfolio/static/css/main.4b1c5c18.css",
+    "main.js": "/anya-s-portfolio/static/js/main.07032cf2.js",
+    "static/media/timeless-tales-cover.png": "/anya-s-portfolio/static/media/timeless-tales-cover.9f00fbc1d45cb38772ee.png",
     "static/media/octomorphosis.png": "/anya-s-portfolio/static/media/octomorphosis.f41b9c911ca9dd257a7e.png",
     "static/media/the-preparation-cover.png": "/anya-s-portfolio/static/media/the-preparation-cover.3f8177363d069de42c8c.png",
     "static/media/stuck-cover.png": "/anya-s-portfolio/static/media/stuck-cover.40191fe934500401812e.png",
     "static/media/charcoal-experiment-ib.png": "/anya-s-portfolio/static/media/charcoal-experiment-ib.21c378d97f02459a82cf.png",
     "static/media/collage-ib.jpg": "/anya-s-portfolio/static/media/collage-ib.5411efe497f305f6b0ff.jpg",
     "static/media/girl-next-to-the-window-ib.jpg": "/anya-s-portfolio/static/media/girl-next-to-the-window-ib.cb0dcf39ab43adfcfedc.jpg",
+    "static/media/not-a-mirror.jpg": "/anya-s-portfolio/static/media/not-a-mirror.52ebd7fb59c0cf727c6e.jpg",
+    "static/media/diptych-final.jpg": "/anya-s-portfolio/static/media/diptych-final.9009be677a891807edd6.jpg",
     "static/media/black-square.png": "/anya-s-portfolio/static/media/black-square.c6487f842509eebc95ea.png",
     "static/media/square-color-experiment.png": "/anya-s-portfolio/static/media/square-color-experiment.ce57092eb067e3eba22c.png",
     "static/media/photogrpahy-ib.jpg": "/anya-s-portfolio/static/media/photogrpahy-ib.19a4de351e9c7f9a5a02.jpg",
+    "static/media/items-to-borrow-from-RC.png": "/anya-s-portfolio/static/media/items-to-borrow-from-RC.3546facceb3f3db53296.png",
     "static/media/printmaking-ib.png": "/anya-s-portfolio/static/media/printmaking-ib.1018fb5a9a6057482b57.png",
     "static/media/end-of-semester-ima-poster.jpg": "/anya-s-portfolio/static/media/end-of-semester-ima-poster.11db1da4fdf9cb7415b1.jpg",
     "static/media/travel-device-poster.png": "/anya-s-portfolio/static/media/travel-device-poster.a1288a82c62ca9a4229c.png",
+    "static/media/linen-purchase-poster.png": "/anya-s-portfolio/static/media/linen-purchase-poster.068cce3dd7dd7fb79723.png",
     "static/media/bootcamp.png": "/anya-s-portfolio/static/media/bootcamp.a4ce2cf1e41f88bbe2bd.png",
+    "static/media/a-girl-procreate.jpg": "/anya-s-portfolio/static/media/a-girl-procreate.da3199fcc1cf2c339bee.jpg",
     "static/media/altrum-cover.png": "/anya-s-portfolio/static/media/altrum-cover.d0cd4f1541ff67d9059a.png",
     "static/media/alumnium-cover.png": "/anya-s-portfolio/static/media/alumnium-cover.18bb88b77012be092dbd.png",
     "static/media/reading-girl-ib.jpg": "/anya-s-portfolio/static/media/reading-girl-ib.8da9381d9d278abd865b.jpg",
+    "static/media/hexagon-chair-poster.png": "/anya-s-portfolio/static/media/hexagon-chair-poster.2d3a984fbb91f34736f5.png",
     "static/media/skills.jpg": "/anya-s-portfolio/static/media/skills.ebda86eea15c816ce266.jpg",
     "index.html": "/anya-s-portfolio/index.html",
     "static/media/wechat.svg": "/anya-s-portfolio/static/media/wechat.1193eca62a77049cad84248560987a22.svg",
     "static/media/linkedin.svg": "/anya-s-portfolio/static/media/linkedin.a1df91ca6f027e1e500640d817c6ec0b.svg",
     "static/media/envelope.svg": "/anya-s-portfolio/static/media/envelope.28a2a5a7fd9a082acf4c12a5c19d2458.svg",
     "static/media/telegram-original.svg": "/anya-s-portfolio/static/media/telegram-original.175f524c8641c91799d6878a11f6b521.svg",
-    "main.45202d51.css.map": "/anya-s-portfolio/static/css/main.45202d51.css.map",
-    "main.8c425edd.js.map": "/anya-s-portfolio/static/js/main.8c425edd.js.map"
+    "main.4b1c5c18.css.map": "/anya-s-portfolio/static/css/main.4b1c5c18.css.map",
+    "main.07032cf2.js.map": "/anya-s-portfolio/static/js/main.07032cf2.js.map"
   },
   "entrypoints": [
-    "static/css/main.45202d51.css",
-    "static/js/main.8c425edd.js"
+    "static/css/main.4b1c5c18.css",
+    "static/js/main.07032cf2.js"
   ]
 }
