@@ -19,14 +19,51 @@ code {
 
 /* SIDEBAR */
 
+@media (max-width: 1000px) {
+  .menuLi {
+    display: none;
+    overflow: hidden;
+  }
+  .contactPage{
+    display: none;
+    overflow: hidden;
+  }
+
+  .menuDiv {
+    padding-top: 10%;
+  }
+
+  .introduction {
+    margin-left: 5%;
+  }
+        .projects {
+          margin-left: 5%;
+            width: 90%;
+        }
+                 .projectLine {
+                   margin-left: 5%;
+                 }
+
+}
+
+@media (min-width: 1000px) {
+
+  .projectLine {
+      margin-left: 18%;
+    }
+  .projects {
+      margin-left: 18%;
+        width: 70%;
+    }
+
 .menuDiv{
   height:100%;
+  padding-top: 7%;
 }
 .menuUl{
   list-style: none;
   position: fixed;
   left: 0;
-  margin-top:0%;
   width: 15%;
 
 }
@@ -73,12 +110,39 @@ code {
   color: white;
 }
 
+.introduction{
+  margin-left: 18%;
+}
+
+.contactPage {
+display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  margin-top: 3%;
+  height: 3vh;
+  margin-right: 10%;
+}
+
+.contactPageIcon {
+  width: 4em;
+  height: 1vh;
+}
+
+.contactIcon {
+  width: 2em;
+  height: 2em;
+}
+
+.contactIcon:hover {
+  width: 2.3em;
+  height: 2.3em;
+}
+}
+
 
 /* INTRODUCTION */
 .introduction{
   margin-bottom: 3%;
-    margin-top: 3%;
-    margin-left: 18%;
     margin-right: 10%;
 }
 
@@ -117,14 +181,12 @@ code {
 }
 
 /* PROJECTS */
+
 .projects{
-  margin-top: 3%;;
-  margin-left: 18%;
   margin-right: 10%;
   /* font-family: 'Montserrat', sans-serif; */
   font-weight: 400;
   padding-bottom: 2%;
-  width: 70%;
   display: block;
 }
 
@@ -160,7 +222,7 @@ code {
   display:block;
 }
 .projectsImages{
-  height: 30rem;
+  width: 50vw;
 }
 
 .projectName:hover{
@@ -219,27 +281,9 @@ cursor: pointer;
 .projectLine {
   border-bottom: 1px solid #ccc;
   margin-bottom: 20px;
-  margin-left: 18%;
   margin-right: 10%;
 }
 
 
 /* CONTACT */
 
-.contactPage {
-  display: flex;
-  flex-direction: column;
-  position: fixed;
-  right: 1%;
-  left: 95%;
-  padding-right: 5%;
-}
-
-.contactPageIcon {
-height: 2.5rem;
-margin-bottom: 3em;
-}
-
-.contactIcon {
-  width: 2.5rem ;
-}
