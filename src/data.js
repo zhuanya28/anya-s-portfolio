@@ -19,6 +19,8 @@ import notAMirror from "./media/not-a-mirror.jpg";
 import hexagonChairPoster from "./media/hexagon-chair-poster.png";
 import timelessTales from "./media/timeless-tales-cover.png";
 import diptychAbuDhabi from "./media/diptych-final.jpg";
+import itemsToBorrowFromTheRCPoster from "./media/items-to-borrow-from-RC.png";
+import linenPurchasePoster from "./media/linen-purchase-poster.png";
 
 export const webDevNDes = [
   {
@@ -63,6 +65,24 @@ export const webDevNDes = [
 ];
 
 export const digitalArtNGraphDesign = [
+  {
+    id: 13,
+    name: "Poster: Linen Purchase",
+    date: "may 2023",
+    role: "Figma, Canva",
+    media: linenPurchasePoster,
+    description:
+      "as a Summer RA at NYU Shanghai, I created a poster to advertise purchasing Bed Linen from NYU Shanghai, highlighting the price, location and methods in a concise and optimal way.",
+  },
+  {
+    id: 12,
+    name: "Poster: Items to Borrow from RC",
+    date: "may 2023",
+    role: "Figma, Canva",
+    media: itemsToBorrowFromTheRCPoster,
+    description:
+      "as a Summer RA at NYU Shanghai, I renovated the old poster to be more eye-grabbing and concise.",
+  },
   {
     id: 11,
     name: "Timeless Tales 永恒故事: short film",
