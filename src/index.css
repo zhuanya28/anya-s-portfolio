@@ -180,6 +180,10 @@ display: flex;
   font-weight:300;
 }
 
+.skillsImage{
+  width: 50vw;
+}
+
 /* PROJECTS */
 
 .projects{
