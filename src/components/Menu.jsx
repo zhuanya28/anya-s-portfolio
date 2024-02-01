@@ -54,7 +54,7 @@ function fillVisualArtsProjects() {
 }
 
 function Menu() {
-  const [activeLink, setActiveLink] = useState("home");
+  const [activeLink, setActiveLink] = useState("webDev&Des");
   
   const handleLinkClick = (linkId) => {
     setActiveLink(linkId);

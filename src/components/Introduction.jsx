@@ -29,7 +29,7 @@ function Introduction() {
           >
             New York University Shanghai
           </a>
-          , currently based in Shanghai.{" "}
+          , currently based in 📍 New York.{" "}
         </h4>
         <br />
         <h4 className="aboutMeText">

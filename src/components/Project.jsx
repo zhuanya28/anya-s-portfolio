@@ -1,6 +1,6 @@
 import React, {useState} from "react";
-import { faAnglesDown } from "@fortawesome/free-solid-svg-icons";
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { faAnglesDown } from "wordpress-fill.svg";
+import { FontAwesomeIcon } from "wordpress-fill.svg";
 
 function Project(props) {
   const [isExpanded, setIsExpanded] = useState(false);
