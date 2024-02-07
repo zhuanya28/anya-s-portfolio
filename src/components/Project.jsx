@@ -1,6 +1,8 @@
 import React, {useState} from "react";
-import { faAnglesDown } from "wordpress-fill.svg";
-import { FontAwesomeIcon } from "wordpress-fill.svg";
+// import { faAnglesDown } from "wordpress-fill.svg";
+// import { FontAwesomeIcon } from "wordpress-fill.svg";
+<script src="https://kit.fontawesome.com/53c8678932.js" crossorigin="anonymous"></script>
+
 
 function Project(props) {
   const [isExpanded, setIsExpanded] = useState(false);
@@ -21,11 +23,10 @@ function Project(props) {
           </div>
           <div className="projectFirstPartArrow" onClick={handleClick}>
             <button className="btn btn-secondary btn-arrow">
-              <FontAwesomeIcon
-                icon={faAnglesDown}
-                size="2xl"
+
+<FontAwesomeIcon icon="fa-solid fa-chevron-up"   size="2xl"
                 className={`arrow ${isExpanded ? "rotate" : ""}`}
-              />
+/>
             </button>
           </div>
         </div>
